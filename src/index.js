@@ -6,7 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 import './index.css';
 
-var element = React.createElement('h1', { className: 'greeting' }, 'Hello, worlssds!');
+var element = React.createElement('h1', { className: 'greeting' }, 'H!');
 ReactDOM.render(element, document.getElementById('root'));
 registerServiceWorker();
 
